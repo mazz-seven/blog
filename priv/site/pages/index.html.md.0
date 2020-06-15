@@ -1,0 +1,16 @@
+---
+title: Cayde framework
+id: some-generated-id
+collection: pages/home
+---
+
+# Welcom to the Home page
+## {{ title }} 
+## <%= @title %> 
+
+{{ content }}
+
+
+<div :for={ item <- 1...4 }>
+    <p>{ item }</p>
+</div>

@@ -1,0 +1,9 @@
+id: blog_plan
+fields:
+  - type: text
+    label: Title
+    bind_to: title
+  
+  - type: markdown
+    label: Content
+    bind_to: content
