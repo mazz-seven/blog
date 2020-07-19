@@ -46,7 +46,7 @@ defmodule LiveBlog.MixProject do
       {:telemetry_poller, "~> 0.4"},
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
-      {:cayde, path: "/Users/tzelonmachluf/Projects/Elixir/cayde"},
+      {:cayde, path: "/Users/tzelonm/Documents/Elixir/cayde"},
       {:plug_cowboy, "~> 2.0"}
     ]
   end
