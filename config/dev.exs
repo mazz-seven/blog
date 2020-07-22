@@ -19,6 +19,7 @@ config :live_blog, LiveBlogWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
   code_reloader: true,
+  reloadable_apps: [:live_blog, :cayde],
   check_origin: false,
   watchers: [
     node: [
